@@ -1,0 +1,28 @@
+{
+  "name": "set",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@eslint/js": "^9.37.0",
+    "babel-jest": "^30.2.0",
+    "eslint": "^9.37.0",
+    "eslint-plugin-jest": "^29.0.1",
+    "globals": "^16.4.0",
+    "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "core-js": "^3.45.1"
+  }
+}
